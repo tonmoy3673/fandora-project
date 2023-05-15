@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './Navbar';
+import Banner from './Banner';
+
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
         <div style={{backgroundImage: `url("https://i.ibb.co/NxN1mD8/BG.png")`, backgroundPosition: "center", backgroundSize: 'cover' }}>
             
         {/* =========== Header Components ============= */}
-            <Navbar/>
+            <Banner/>
                 
         </div>
     );
