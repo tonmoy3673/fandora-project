@@ -1,6 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
 import Jargon from './Jargon';
+import Nft from './Nft';
 
 
 const Header = () => {
@@ -61,6 +62,8 @@ const Header = () => {
             </div>
 
             <Jargon/>
+
+            <Nft/>
         {/* ============== End of header ============== */}
         </div>
     );

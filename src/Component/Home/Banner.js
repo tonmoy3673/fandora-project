@@ -2,6 +2,7 @@ import React from 'react';
 
 import './Banner.css'
 import Navbar from './Navbar';
+
 const Banner = () => {
     return (
         <div  style={{ backgroundImage: `url("https://i.ibb.co/6PV8Gzk/Hero-Image-BG.png")`,backgroundSize:'cover' }} className='w-full'>
@@ -19,8 +20,11 @@ const Banner = () => {
                     <img src="https://i.ibb.co/XSNsPLg/Floating-pieces.png" className="w-full lg:w-6/12" alt='banner' />
                 </div>
 
+               
                 
             </div>
+
+           
         </div>
 
 
