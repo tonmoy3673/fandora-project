@@ -3,7 +3,7 @@ import './Creator.css';
 const Creator = () => {
     return (
         <div className='global lg:px-28 -mt-5'>
-            <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 justify-center items-center'>
                 <img src='https://i.ibb.co/88hHG5N/Phone-mockup-2.png' alt='img'>
                 </img>
 

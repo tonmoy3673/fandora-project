@@ -2,7 +2,7 @@ import React from 'react';
 
 const Money = () => {
     return (
-        <div className='lg:px-20'>
+        <div className='lg:px-20 bg-[#1B1B1D] pb-12 rounded-3xl'>
             <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center'>
                 <img src='https://i.ibb.co/xszfvq3/TGN-4-2.png' alt='img'>
                 </img>
@@ -25,7 +25,7 @@ const Money = () => {
             <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center'>
 
 
-                <div className='text-start'>
+                <div className='text-center lg:text-start'>
                     <h2 className='text-xl font-semibold text-white'>Talent content platform</h2>
                     <h1 className='text-4xl font-bold text-[#538EB6] py-4'>Build your custom <br />subscription platform</h1>
                     <p className='text-md text-white'>Build your custom subscription platform
@@ -41,6 +41,10 @@ const Money = () => {
                 </img>
 
             </div>
+
+            
+
+            {/* ================ End of make money ============== */}
         </div>
     );
 };

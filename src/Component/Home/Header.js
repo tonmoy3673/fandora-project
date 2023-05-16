@@ -4,6 +4,9 @@ import Jargon from './Jargon';
 import Nft from './Nft';
 import Creator from './Creator';
 import Money from './Money';
+import Discover from './Discover';
+import Navbar from './Navbar';
+import Landing from './Landing';
 
 
 const Header = () => {
@@ -68,6 +71,8 @@ const Header = () => {
             <Nft/>
             <Creator/>
             <Money/>
+            <Discover/>
+            <Landing/>
         {/* ============== End of header ============== */}
         </div>
     );
