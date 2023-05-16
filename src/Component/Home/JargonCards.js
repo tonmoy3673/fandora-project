@@ -1,9 +1,13 @@
 import React from 'react';
+import Jargon from './Jargon';
 
-const JargonCards = () => {
+const JargonCards = ({jargon}) => {
+console.log(jargon);
+  
     return (
-        <div>
-            
+        <div >
+          console.log(jargon.length);
+           
         </div>
     );
 };
