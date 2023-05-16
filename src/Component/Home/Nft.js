@@ -46,7 +46,7 @@ const Nft = () => {
 
 
     return (
-        <div className='py-10'>
+        <div className='pt-10'>
             <div className="rounded-3xl" style={{ backgroundImage: `url("https://i.ibb.co/F6qVFxP/Bg.png")`, backgroundPosition: 'center', backgroundSize: 'cover' }}>
                 <div className="hero-overlay bg-opacity-20">
 
@@ -69,7 +69,7 @@ const Nft = () => {
                 </div>
 
                 {/* ===================== NFT Card Section ============ */}
-                <div className='grid gap-6 lg:px-20 mt-20 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto'>
+                <div className='grid gap-6 lg:px-20 mt-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto'>
                         {
                             nftCard.map(NFT=><NftCard NFT={NFT} key={NFT.id}>
 

@@ -2,6 +2,8 @@ import React from 'react';
 import Banner from './Banner';
 import Jargon from './Jargon';
 import Nft from './Nft';
+import Creator from './Creator';
+import Money from './Money';
 
 
 const Header = () => {
@@ -64,6 +66,8 @@ const Header = () => {
             <Jargon/>
 
             <Nft/>
+            <Creator/>
+            <Money/>
         {/* ============== End of header ============== */}
         </div>
     );

@@ -1,0 +1,48 @@
+import React from 'react';
+
+const Money = () => {
+    return (
+        <div className='lg:px-20'>
+            <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center'>
+                <img src='https://i.ibb.co/xszfvq3/TGN-4-2.png' alt='img'>
+                </img>
+
+                <div className='text-start'>
+                    <h2 className='text-xl font-semibold text-white'>Tokenised Crowdfunding</h2>
+                    <h1 className='text-4xl font-bold text-[#538EB6] py-4'>Create content. <br />Make money for everybody.</h1>
+                    <p className='text-md text-white'>With Fandora you can enable your loyal fan base to bid for a share of the revenue from your next product or content offering to be launched over a stipulated time period. This leads to an audience base that is even more invested in you and your work, literally and figuratively.
+                    </p>
+                    <div className='py-4 mt-3'>
+                        <button className='btn btn1 py-2 uppercase text-md text-white rounded-full'>
+                            JOIN THE CONVERSATION
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+            {/* ================ Another Part ============= */}
+            <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center'>
+
+
+                <div className='text-start'>
+                    <h2 className='text-xl font-semibold text-white'>Talent content platform</h2>
+                    <h1 className='text-4xl font-bold text-[#538EB6] py-4'>Build your custom <br />subscription platform</h1>
+                    <p className='text-md text-white'>Build your custom subscription platform
+                        Create your own content and subscription engine and have direct control of audience revenues. Fandora gives you access to state-of-the-art No-Code content platform which enables you to raise subscriptions as well as mint NFTs
+                    </p>
+                    <div className='py-4 mt-3'>
+                        <button className='btn btn1 py-2 uppercase text-md text-white rounded-full'>
+                            JOIN THE CONVERSATION
+                        </button>
+                    </div>
+                </div>
+                <img src='https://i.ibb.co/1b9Dn2v/TGN-5-1.png' alt='img'>
+                </img>
+
+            </div>
+        </div>
+    );
+};
+
+export default Money;
