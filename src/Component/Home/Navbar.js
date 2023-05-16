@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <div className='lg:px-20 py-8'>
-            <header aria-label="Site Header" className="dark:bg-gray-900 bg-transparent">
+        <div className='lg:px-18 py-8'>
+            <header aria-label="Site Header" className="dark:bg-gray-900">
                 <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                     <div className="flex h-16 items-center justify-between">
                         <div className="md:flex md:items-center md:gap-12">
@@ -70,7 +71,7 @@ const Navbar = () => {
                                 <div className="hidden sm:flex">
 
                                     <button
-                                        type="button" className="px-6 lg:text-base capitalize btn border-none rounded-full btn-outline bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-white hover:text-info dark:bg-gray-800 dark:text-white dark:hover:text-white/75"
+                                        type="button" className="btn text-white rounded-full outline-none bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 px-6 lg:text-base capitalize border-none btn1"
                                         href="/"
                                     >
                                         Sign Up
