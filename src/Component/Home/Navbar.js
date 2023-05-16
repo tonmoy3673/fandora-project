@@ -71,7 +71,7 @@ const Navbar = () => {
                                 <div className="hidden sm:flex">
 
                                     <button
-                                        type="button" className="btn text-white rounded-full outline-none bg-gradient-to-r hover:from-pink-500 hover:to-yellow-500 px-6 lg:text-base capitalize border-none btn1"
+                                        type="button" className="btn text-white rounded-full outline-none px-6 lg:text-base capitalize border-none btn1"
                                         href="/"
                                     >
                                         Sign Up
