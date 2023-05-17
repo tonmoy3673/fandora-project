@@ -7,6 +7,7 @@ import Money from './Money';
 import Discover from './Discover';
 import Navbar from './Navbar';
 import Landing from './Landing';
+import Footer from './Footer';
 
 
 const Header = () => {
@@ -73,6 +74,7 @@ const Header = () => {
             <Money/>
             <Discover/>
             <Landing/>
+            <Footer/>
         {/* ============== End of header ============== */}
         </div>
     );

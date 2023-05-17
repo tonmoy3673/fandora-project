@@ -4,11 +4,11 @@ const Discover = () => {
     return (
         <div className='w-9/12 bg-[#f2f2f2] mx-auto rounded-3xl lg:px-10 -mt-16'>
                     <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 justify-center items-center py-8'>
-                        <div>
-                            <h1 className='text-3xl text-black font-semibold mb-3'>Discover and sell <br/>
+                        <div className=''>
+                            <h1 className='text-3xl text-black font-semibold text-center lg:text-start mb-3'>Discover and sell <br/>
                             your own NFTs
                             </h1>
-                            <p>
+                            <p className='text-center lg:text-start'>
                             Join fandora and support outstanding global talent across multiple domains.
                             </p>
                             <div className='py-4 mt-3'>
