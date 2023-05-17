@@ -50,7 +50,7 @@ const Jargon = () => {
                 <h1 className='lg:text-7xl font-bold text1 text-5xl py-4'>Simplicity <span> {">>>"}</span> Jargon</h1>
                 <p className='py-2 mb-2 text-lg text-white'>We take care of everything so the artists can focus on what they do best. Create art.</p>
             </div>
-
+                    
         {/* ===================  jargon cards ================ */}
         <div className='lg:w-[1100px] mx-auto grid gap-4 lg:px-20 mt-20 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
         {

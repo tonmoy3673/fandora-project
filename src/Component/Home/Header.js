@@ -20,7 +20,7 @@ const Header = () => {
             <Banner />
 
             <div className='lg:px-20 py-6'>
-                <h1 className='text-info font-semibold text-lg'>
+                <h1 className='text-info font-semibold text-lg text-center lg:text-start'>
                     Know about the launch before everyone else
                 </h1>
 
