@@ -5,7 +5,7 @@ const JargonCards = ({ jargon }) => {
     const {title,des,img,button}=jargon;
 
     return (
-        <div className=''>
+        <div className='hidden lg:block'>
             <div className="card w-full lg:w-[286px] h-[396px] bg-slate-800 shadow-xl mt-10 lg:mb-10 rounded-4">
                 <figure className="px-10 -mt-10 z-50">
                     <img src={img} alt="card" className="rounded-xl sm:w-1/3 w-full lg:w-5/12" />

@@ -26,7 +26,7 @@ const Header = () => {
 
                 {/* =========== three content ============== */}
                 <div className='py-4 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-4'>
-                    <input type="email" placeholder="Enter Email Here" className="input w-full input-bordered border-2 border-info max-w-xs rounded-full bg-transparent" />
+                    <input type="email" placeholder="Enter Email Here" className="input w-full input-bordered border-2 border-info max-w-xs text-[#f2f2f2] rounded-full bg-transparent" />
                     <div className='text-center'>
                         <button
                             type="button" className="btn text-white rounded-full outline-none px-6 lg:text-base capitalize border-none btn1 w-2/4"
