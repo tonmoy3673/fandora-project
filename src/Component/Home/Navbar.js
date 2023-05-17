@@ -55,6 +55,14 @@ const Navbar = () => {
                                             Marketplace
                                         </a>
                                     </li>
+                                    <li>
+                                        <Link
+                                            className="text-white transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+                                            to="/auction"
+                                        >
+                                            Live Auction
+                                        </Link>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>

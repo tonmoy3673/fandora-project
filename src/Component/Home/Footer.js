@@ -14,6 +14,7 @@ const Footer = () => {
                 <img src='https://i.ibb.co/GpTnyYg/link.png' alt='icon'/>
                 <img src='https://i.ibb.co/dKVngmk/twitter.png' alt='icon'/>
                 <img src='https://i.ibb.co/tCH1Q09/you.png' alt='icon'/>
+               
 
             </div>
 
