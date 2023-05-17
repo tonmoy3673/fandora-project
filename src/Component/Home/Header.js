@@ -5,7 +5,7 @@ import Nft from './Nft';
 import Creator from './Creator';
 import Money from './Money';
 import Discover from './Discover';
-import Navbar from './Navbar';
+
 import Landing from './Landing';
 import Footer from './Footer';
 
@@ -30,7 +30,7 @@ const Header = () => {
                     <div className='text-center'>
                         <button
                             type="button" className="btn text-white rounded-full outline-none px-6 lg:text-base capitalize border-none btn1 w-2/4"
-                            href="/"
+                           
                         >
                             Sign Up
                         </button>

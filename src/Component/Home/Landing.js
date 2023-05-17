@@ -6,7 +6,7 @@ const Landing = () => {
         <div className='lg:px-18 py-16'>
         <header aria-label="Site Header" className="dark:bg-gray-900">
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                <div className="flex h-16 items-center justify-between">
+                <div className="flex h-16 items-center justify-center lg:gap-28 gap-6">
                     <div className="md:flex md:items-center md:gap-12">
                         <a className="block text-teal-600 dark:text-teal-600" href="/">
 
