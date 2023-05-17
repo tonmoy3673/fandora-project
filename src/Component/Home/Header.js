@@ -66,7 +66,6 @@ const Header = () => {
                 </div>
 
             </div>
-
             <Jargon />
 
             <Nft />

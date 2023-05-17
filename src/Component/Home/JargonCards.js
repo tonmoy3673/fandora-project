@@ -5,9 +5,9 @@ const JargonCards = ({ jargon }) => {
     const {title,des,img,button}=jargon;
 
     return (
-        <div className='mx-auto'>
-            <div className="card w-full lg:w-80 h-[400px] bg-slate-800 shadow-xl mt-10 lg:mb-10 rounded-4">
-                <figure className="px-10 -mt-20 z-50">
+        <div className=''>
+            <div className="card w-full lg:w-[286px] h-[396px] bg-slate-800 shadow-xl mt-10 lg:mb-10 rounded-4">
+                <figure className="px-10 -mt-10 z-50">
                     <img src={img} alt="card" className="rounded-xl sm:w-1/3 w-full lg:w-5/12" />
                 </figure>
                 <div className="card-body items-center text-center">

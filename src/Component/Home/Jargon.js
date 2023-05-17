@@ -52,7 +52,7 @@ const Jargon = () => {
             </div>
 
         {/* ===================  jargon cards ================ */}
-        <div className='grid gap-6 lg:px-20 mt-20 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto'>
+        <div className='lg:w-[1100px] mx-auto grid gap-4 lg:px-20 mt-20 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1'>
         {
             jargonCard.map(jargon=><JargonCards jargon={jargon} key={jargon.id}>
 

@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 const Banner = () => {
     return (
-        <div style={{ backgroundImage: `url("https://i.ibb.co/6PV8Gzk/Hero-Image-BG.png")`, backgroundSize: 'cover' }} className='w-full'>
+        <div style={{ backgroundImage: `url("https://i.ibb.co/6PV8Gzk/Hero-Image-BG.png")`, backgroundSize: 'cover', backgroundPosition:'center-center' }} className='w-full'>
             <Navbar />
 
             {/* =================== Banner Content ============== */}
@@ -18,13 +18,16 @@ const Banner = () => {
                 </div>
                 <div className="relative">
                     <img src="https://i.ibb.co/XSNsPLg/Floating-pieces.png" className="w-full lg:w-6/12" alt='banner' />
-                    <img src="https://i.ibb.co/c2HwPs2/Fandora-LOGO-Hero-Image.png" className="absolute w-2/3 lg:w-[140px] h-2/4 top-[39px] left-[115px] lg:h-[200px]" alt='banner' />
+                    <img src="https://i.ibb.co/c2HwPs2/Fandora-LOGO-Hero-Image.png" className="absolute animate-bounce infinite w-2/4 lg:w-[140px] h-2/4 top-[39px] left-[115px] lg:h-[200px]" alt='banner' />
 
                 </div>
 
 
 
             </div>
+
+          
+            
 
 
         </div>
