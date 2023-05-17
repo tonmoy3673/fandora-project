@@ -68,7 +68,7 @@ const Avator = () => {
                         <SwiperSlide className='py-10'>
                         <div className="card shadow-2xl w-full lg:w-60 h-full lg:h-80 lg:mb-10 rounded-4 bg-slate-800">
             <figure className="px-10">
-                <img src='https://i.ibb.co/DkZd5F4/person.png' alt="card" className="rounded-xl" />
+                <img src='https://i.ibb.co/MpS8gMX/Rectangle-11.png' alt="card" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center text-white">
                 <h2 className="card-title text-2xl ">InvisibleFriend #54</h2>
