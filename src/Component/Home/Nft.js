@@ -69,7 +69,7 @@ const Nft = () => {
                 </div>
 
                 {/* ===================== NFT Card Section ============ */}
-                <div className='grid gap-6 lg:px-20 mt-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto'>
+                <div className='w-[1000px] grid gap-6 lg:px-20 mt-6 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 mx-auto'>
                         {
                             nftCard.map(NFT=><NftCard NFT={NFT} key={NFT.id}>
 

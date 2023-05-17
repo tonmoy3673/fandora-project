@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from '../Home/Navbar';
+import Footer from '../Home/Footer';
+import Live from './Live';
 
 const Auction = () => {
     return (
-        <div>
-            <h1>This is Auction</h1>
+        <div className='w-full bg-[#1E1E1E]'>
+           <Navbar/>
+           <Live/>
+           <Footer/>
         </div>
     );
 };
