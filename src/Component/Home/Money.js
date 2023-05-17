@@ -41,8 +41,10 @@ const Money = () => {
                         </button>
                     </div>
                 </div>
+                <div className='mb-10'>
                 <img src='https://i.ibb.co/1b9Dn2v/TGN-5-1.png' alt='img'>
                 </img>
+                </div>
 
             </div>
 

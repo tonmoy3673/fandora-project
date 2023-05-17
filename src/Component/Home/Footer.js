@@ -8,7 +8,7 @@ const Footer = () => {
             {/* ========= Footer Content ========= */}
             <div className='px-20 grid grid-cols-1 lg:grid-cols-5 lg:mt-10 mt-4 items-center text-[#f2f2f2]'>
 
-            <div className='flex items-center gap-4 cursor-pointer'>
+            <div className='flex items-center gap-4 cursor-pointer mb-4'>
                 <img src='https://i.ibb.co/4dpGVtn/dis.png' alt='icon'/>
                 <img src='https://i.ibb.co/PhgnXLM/email.png' alt='icon'/>
                 <img src='https://i.ibb.co/GpTnyYg/link.png' alt='icon'/>
