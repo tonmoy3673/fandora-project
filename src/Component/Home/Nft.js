@@ -60,7 +60,7 @@ const Nft = () => {
                             Pre NFT Rights
                         </h1>
 
-                        <p className="mb-5">
+                        <p className="mb-5 text-secondary">
                             Imagine a real life auction, but everything is an NFT.
                             Fandora is the first platform that enables creators to auction or sell their NFT rights to their audience. These pre NFT rights enable your audience to build content around you, pay you, and also share royalties. With Fandora, creators can do all this easily - without all the tech-speak.
                         </p>
